@@ -2,10 +2,13 @@
 
 ## Contacts
 
-    Location: Russian Federation, Saint Petersburg
-    Email: obraztsov84.rs@gmail.com
-    GitHub: obraztsov84
-    LinkedIn: https://www.linkedin.com/in/sergei-obraztsov-1483a3227/
+Location: Russian Federation, Saint Petersburg
+
+Email: <obraztsov84.rs@gmail.com>
+
+GitHub: [obraztsov84](https://www.codewars.com/users/obraztsov84/)
+
+LinkedIn: [Link](https://www.linkedin.com/in/sergei-obraztsov-1483a3227/)
 
 ## About Me
 
@@ -24,7 +27,7 @@ I am interested in IT because it is a fast-growing field with a high demand for 
 
 ## Code Example
 
-Example of my code from codewars - [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
+Codewars - [Human readable duration format](https://www.codewars.com/kata/52742f58faf5485cae000b9a)
 ```
 function formatDuration (seconds) {
   //year=60*60*24*365=31536000 day=86400 hour=3600 min=60
@@ -52,9 +55,9 @@ Most of my work is updating the design of pages and writing react components for
 
 ## Education
 
-I spent five years at Saint Petersburg mining university (http://en.spmi.ru/). I graduated as a mining engeneer. 
+I spent five years at [Saint Petersburg Mining University](http://en.spmi.ru/). I graduated as a mining engeneer. 
 I have certification for ISO 9001 as an expert-auditor in 2021. Also I have taken several courses for my engeneering work.
-For my IT specialization i start with HTML Academy and some courses on Udemy.com (Ivan Petrechenko courses). 
+For my IT specialization i start with HTML Academy and some courses on [Udemy](Udemy.com) (Ivan Petrechenko courses). 
 
 ## English
 
