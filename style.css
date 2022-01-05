@@ -1,3 +1,46 @@
-body {
+body, ul {
   margin: 0 ;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+header, footer {
+  background-color: #919191;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #e6e6e6;
+}
+
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-item {
+  display: flex;
+  flex-grow: 1;
+  padding:  10px 0;
+  list-style: none;
+
+}
+
+.navbar-item:hover {
+  background-color: #7c7b7b;
+}
+
+.navbar-link {
+  margin:0 auto;
+  text-decoration: none;
+  color: #000;
+  font-size: larger;
+  font-weight: 700;
 }
