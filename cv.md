@@ -2,13 +2,13 @@
 
 ## Contacts
 
-Location: Russian Federation, Saint Petersburg
+**Location**: Russian Federation, Saint Petersburg
 
-Email: <obraztsov84.rs@gmail.com>
+**Email**: <obraztsov84.rs@gmail.com>
 
-GitHub: [obraztsov84](https://www.codewars.com/users/obraztsov84/)
+**GitHub**: [obraztsov84](https://www.codewars.com/users/obraztsov84/)
 
-LinkedIn: [Link](https://www.linkedin.com/in/sergei-obraztsov-1483a3227/)
+**LinkedIn**: [Link](https://www.linkedin.com/in/sergei-obraztsov-1483a3227/)
 
 ## About Me
 
@@ -61,4 +61,4 @@ For my IT specialization i start with HTML Academy and some courses on [Udemy](U
 
 ## English
 
-My result indicates that my level of English is somewhere between B1 Intermediate and B2 Upper Intermediate according to the Common European Framework of Reference, also known as the CEFR. I can almost freely read any documentation related to my work specialization, as well as watch training videos on YouTube. 
+My result indicates that my level of English is somewhere between **B1** Intermediate and **B2** Upper Intermediate according to the Common European Framework of Reference, also known as the CEFR. I can almost freely read any documentation related to my work specialization, as well as watch training videos on YouTube. 
