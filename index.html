@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <link>
+    <meta charset="UTF-8" />
+    <title>&midast;&midast;Obraztsov Sergey&midast;&midast;</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css"
+    />
+    <link/ rel="stylesheet" href="style.css">
+    </html>
+    <style>
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI",
+          system-ui, "Ubuntu", "Droid Sans", sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+    </style>
+    <style>
+      .task-list-item {
+        list-style-type: none;
+      }
+      .task-list-item-checkbox {
+        margin-left: -20px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body class="vscode-body vscode-light">
+    <h1 id="obraztsov-sergey"><strong>Obraztsov Sergey</strong></h1>
+    <h2 id="contacts"><strong>Contacts</strong></h2>
+    <p><strong>Location</strong>: Russian Federation, Saint Petersburg</p>
+    <p>
+      <strong>Email</strong>:
+      <a href="mailto:obraztsov84.rs@gmail.com">obraztsov84.rs@gmail.com</a>
+    </p>
+    <p>
+      <strong>GitHub</strong>:
+      <a href="https://www.codewars.com/users/obraztsov84/">obraztsov84</a>
+    </p>
+    <p>
+      <strong>LinkedIn</strong>:
+      <a href="https://www.linkedin.com/in/sergei-obraztsov-1483a3227/">Link</a>
+    </p>
+    <h2 id="about-me"><strong>About Me</strong></h2>
+    <p>
+      My main strengths are problem solving skills and the ability to analyze
+      complex information. I am good at finding a common language with people
+      and building long-term working relationships. I have 10+ years of
+      experience as a manager and a design engineer, including more than 2 years
+      as a department head. I have experience in selling technically complex
+      equipment. I am interested in IT because it is a fast-growing field with a
+      high demand for intelligent specialists.
+    </p>
+    <h2 id="skills"><strong>Skills</strong></h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS, SCSS</li>
+      <li>Javascript/Typescript</li>
+      <li>REACT/NEXT.JS</li>
+      <li>GIT in CLI as cvs, and gitlab for CI/CD (as a user).</li>
+      <li>can create little scripts in Selenium IDE.</li>
+    </ul>
+    <h2 id="code-example"><strong>Code Example</strong></h2>
+    <p>
+      Codewars -
+      <a href="https://www.codewars.com/kata/52742f58faf5485cae000b9a"
+        >Human readable duration format</a
+      >
+    </p>
+    <pre><code><code><div>function formatDuration (seconds) {
+  //year=60*60*24*365=31536000 day=86400 hour=3600 min=60
+  let arr = [seconds%60 + ' second',
+            Math.floor(seconds%3600/60) + ' minute',
+            Math.floor(seconds%86400/3600) +' hour',
+            Math.floor(seconds%31536000/86400) + ' day',
+            Math.floor(seconds/31536000) + ' year'].filter(x=&gt;+x[0]).map(x=&gt;+(x[0]+x[1])&gt;1?x+'s':x);
+  switch (arr.length) {      
+  case 0: return 'now'; 
+  case 1: return arr[0];
+  case 2: return arr[1] + ' and ' +arr[0];
+  default: arr[1]+= ' and ';
+           for (let i=2; i&lt;arr.length;i++) arr[i]+=', ';
+           return arr.reverse().join('');
+    }
+}
+</div></code></code></pre>
+    <h2 id="experience"><strong>Experience</strong></h2>
+    <p>
+      I have been working as an intern/junior front end developer in a hosting
+      company since the 4th quarter of 2021. Most of my work is updating the
+      design of pages and writing react components for the administrative panel.
+    </p>
+    <h2 id="education"><strong>Education</strong></h2>
+    <p>
+      I spent five years at
+      <a href="http://en.spmi.ru/">Saint Petersburg Mining University</a>. I
+      graduated as a mining engeneer. I have certification for ISO 9001 as an
+      expert-auditor in 2021. Also I have taken several courses for my
+      engeneering work. For my IT specialization i start with HTML Academy and
+      some courses on <a href="Udemy.com">Udemy</a> (Ivan Petrechenko courses).
+    </p>
+    <h2 id="english"><strong>English</strong></h2>
+    <p>
+      My result indicates that my level of English is somewhere between
+      <strong>B1</strong> Intermediate and <strong>B2</strong> Upper
+      Intermediate according to the Common European Framework of Reference, also
+      known as the CEFR. I can almost freely read any documentation related to
+      my work specialization, as well as watch training videos on YouTube.
+    </p>
+  </body>
+</html>
