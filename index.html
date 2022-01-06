@@ -31,7 +31,11 @@
       </header>
 
       <main>
-        <h1 id="obraztsov-sergey"><strong>Obraztsov Sergey</strong></h1>
+        <div class="avator">
+          <img class="avator-image" src="/img/ava.png" alt="avator">
+          <h1 id="obraztsov-sergey"><strong>Obraztsov Sergey</strong></h1>
+        </div>  
+        
         <h2 id="contacts"><strong>Contacts</strong></h2>
         <p><strong>Location</strong>: Russian Federation, Saint Petersburg</p>
         <p>
@@ -40,7 +44,7 @@
         </p>
         <p>
           <strong>GitHub</strong>:
-          <a href="https://www.codewars.com/users/obraztsov84/">obraztsov84</a>
+          <a href="https://github.com/obraztsov84">obraztsov84</a>
         </p>
         <p>
           <strong>LinkedIn</strong>:
@@ -58,12 +62,12 @@
         </p>
         <h2 id="skills"><strong>Skills</strong></h2>
         <ul>
-          <li>HTML</li>
-          <li>CSS, SCSS</li>
-          <li>Javascript/Typescript</li>
-          <li>REACT/NEXT.JS</li>
-          <li>GIT in CLI as cvs, and gitlab for CI/CD (as a user).</li>
-          <li>can create little scripts in Selenium IDE.</li>
+          <li class="skills-list-item">HTML</li>
+          <li class="skills-list-item">CSS, SCSS</li>
+          <li class="skills-list-item">Javascript/Typescript</li>
+          <li class="skills-list-item">REACT/NEXT.JS</li>
+          <li class="skills-list-item">GIT in CLI as cvs, and gitlab for CI/CD (as a user).</li>
+          <li class="skills-list-item">can create little scripts in Selenium IDE.</li>
         </ul>
         <h2 id="code-example"><strong>Code Example</strong></h2>
         <p>
@@ -72,7 +76,7 @@
             >Human readable duration format</a
           >
         </p>
-        <pre><code><code><div>function formatDuration (seconds) {
+        <pre><code>function formatDuration (seconds) {
       //year=60*60*24*365=31536000 day=86400 hour=3600 min=60
       let arr = [seconds%60 + ' second',
                 Math.floor(seconds%3600/60) + ' minute',
@@ -88,7 +92,7 @@
               return arr.reverse().join('');
         }
     }
-    </div></code></code></pre>
+    </code></pre>
         <h2 id="experience"><strong>Experience</strong></h2>
         <p>
           I have been working as an intern/junior front end developer in a hosting
@@ -113,8 +117,14 @@
           my work specialization, as well as watch training videos on YouTube.
         </p>
       </main>
-      <footer>
-
+      <footer class="footer">
+        <div class="footer-item">
+          <a class="logo" href="https://github.com/obraztsov84"><img src="/img/Logos/github.svg" width ="50" height="50" alt="github-logo"/></a>
+        </div>
+        <div class="footer-item"><p class="footer-date">2022</p></div>
+        <div class="footer-item">
+          <a class="logo" href="https://rs.school/js/"><img  src="/img/Logos/rsschool.svg" height="50" alt="rsschool-logo"/></a>
+        </div>
       </footer>
     </div>
   </body>
