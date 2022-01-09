@@ -11,7 +11,7 @@ header, footer {
 }
 
 main {
-  padding: 0 30px;
+  padding: 50px 30px 0;
 }
 
 
@@ -20,6 +20,11 @@ main {
   width: 1000px;
   margin: 0 auto;
   background-color: #e6e6e6;
+}
+
+.header {
+  position: fixed;
+  width: inherit;
 }
 
 .navbar {
@@ -39,6 +44,12 @@ main {
 
 .navbar-item:hover {
   background-color: #7c7b7b;
+  box-shadow:  0 0 10px rgba(0,0,0,0.5);
+  transform: scale(110%, 110%);
+}
+
+.navbar-item:hover .navbar-link{
+  transform: scale(110%, 110%);
 }
 
 .navbar-link {
@@ -81,12 +92,20 @@ main {
 }
 
 .avator-image {
+  display: block;
+  background-image: url(img/ava.png);
+  background-size: contain;
   width: 60px;
   height: 60px;
   margin-right: 25px;
   border: solid #000 1px;
   border-radius: 50%;
 }
+
+ .avator:hover .avator-image {
+  background-image: url(img/ava2.png);
+}
+
 
 .logo:hover {
   transform: scale(110%, 110%);
